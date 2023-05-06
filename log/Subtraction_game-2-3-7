@@ -1,0 +1,12 @@
+
+normal rule
+N-formula:	 And(v0 >= 1, Not(v0%3 == 1))
+time cost:	 1.7571735382080078
+strategies:	 []
+time cost:	 2.2188453674316406
+
+normal rule
+N-formula:	 And(v0 >= 1, Not(v0%3 == 1))
+time cost:	 1.1130201816558838
+strategies:	 []
+time cost:	 1.5591912269592285

@@ -1,0 +1,30 @@
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 1.670273780822754
+strategies:	 [(Not(0 <= -1*v0 + v1), 'take1', v0 + -1*v1), (Not(-1*v0 + v1 <= 0), 'take2', -1*v0 + v1)]
+time cost:	 2.996116876602173
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 3.6740078926086426
+strategies:	 [(Not(-1*v0 + v1 <= 0), 'take2', -1*v0 + v1)]
+time cost:	 4.399921655654907
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 0)
+time cost:	 1.4190902709960938
+strategies:	 [(Not(0 <= v0 + -1*v1), 'take2', -1*v0 + v1), (Not(v0 + -1*v1 <= 0), 'take1', v0 + -1*v1)]
+time cost:	 2.3705296516418457
+
+normal rule
+N-formula:	 And(Not(v0 + -1*v1 == 0), Not(-3*v0 + 2*v1 <= 0))
+time cost:	 2.356942892074585
+strategies:	 [(And(Not(0 <= v0 + -1*v1), Not(-3*v0 + 2*v1 <= 0)), 'take2', -1*v0 + v1)]
+time cost:	 3.0573182106018066
+
+misere rule
+N-formula:	 Not(v0 + -1*v1 == -1)
+time cost:	 1.5891501903533936
+strategies:	 [(Not(-1 <= v0 + -1*v1), 'take2', -1 + -1*v0 + v1), (Not(v0 + -1*v1 <= -1), 'take1', 1)]
+time cost:	 2.5977180004119873

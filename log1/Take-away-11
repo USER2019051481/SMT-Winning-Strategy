@@ -1,0 +1,6 @@
+
+normal rule
+N-formula:	 Not(v0%12 == 0)
+time cost:	 5.579141616821289
+strategies:	 [(And(Not(v0 <= 11), v0%12 == 1), 'take', 1), (And(Not(v0 <= 11), v0%12 == 2), 'take', 2), (And(Not(v0 <= 11), v0%12 == 3), 'take', 3), (And(Not(v0 <= 11), v0%12 == 4), 'take', 4), (And(Not(v0 <= 11), v0%12 == 5), 'take', 5), (And(Not(v0 <= 11), v0%12 == 6), 'take', 6), (And(Not(v0 <= 11), v0%12 == 7), 'take', 7), (And(Not(v0 <= 11), v0%12 == 8), 'take', 8), (And(Not(v0 <= 11), v0%12 == 9), 'take', 9), (And(Not(v0 <= 11), v0%12 == 10), 'take', 10), (And(Not(v0 <= 11), v0%12 == 11), 'take', 11)]
+time cost:	 17.023123025894165

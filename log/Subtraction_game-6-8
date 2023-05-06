@@ -1,0 +1,18 @@
+
+normal rule
+N-formula:	 And(Not(v0 == 0), Not((3*v0)%6 == 1))
+time cost:	 82.49752855300903
+strategies:	 []
+time cost:	 84.1751880645752
+
+normal rule
+N-formula:	 Not(v0%8 == 0)
+time cost:	 0.0927276611328125
+strategies:	 []
+time cost:	 1.3492603302001953
+
+normal rule
+N-formula:	 False
+time cost:	 0.1902003288269043
+strategies:	 []
+time cost:	 0.19919347763061523

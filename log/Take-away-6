@@ -1,0 +1,82 @@
+
+normal rule
+N-formula:	 Not(v0%7 == 0)
+time cost:	 4.867748022079468
+
+normal rule
+N-formula:	 Not(v0%7 == 0)
+time cost:	 5.416146516799927
+strategies:	 [(v0%7 == 1, 'take', 1), (v0%7 == 2, 'take', 2), (v0%7 == 3, 'take', 3), (v0%7 == 4, 'take', 4), (v0%7 == 5, 'take', 5), (v0%7 == 6, 'take', 6)]
+time cost:	 6.5521979331970215
+
+normal rule
+N-formula:	 Not(v0%7 == 0)
+time cost:	 79.32604122161865
+strategies:	 [(v0%7 == 1, 'take', 1), (v0%7 == 2, 'take', 2), (v0%7 == 3, 'take', 3), (v0%7 == 4, 'take', 4), (v0%7 == 5, 'take', 5), (v0%7 == 6, 'take', 6)]
+time cost:	 81.52128481864929
+
+normal rule
+N-formula:	 And(Not(v0 <= -1), Not(v0%7 == 0))
+time cost:	 20.787754774093628
+strategies:	 [(And(Not(v0 <= -1), v0%7 == 1), 'take', 1), (And(Not(v0 <= -1), v0%7 == 2), 'take', 2), (And(Not(v0 <= -1), v0%7 == 3), 'take', 3), (And(Not(v0 <= -1), v0%7 == 4), 'take', 4), (And(Not(v0 <= -1), v0%7 == 5), 'take', 5), (And(Not(v0 <= -1), v0%7 == 6), 'take', 6)]
+time cost:	 23.64950132369995
+
+normal rule
+N-formula:	 Not(v0%7 == 0)
+time cost:	 23.07358980178833
+strategies:	 [(v0%7 == 1, 'take', 1), (v0%7 == 2, 'take', 2), (v0%7 == 3, 'take', 3), (v0%7 == 4, 'take', 4), (v0%7 == 5, 'take', 5), (v0%7 == 6, 'take', 6)]
+time cost:	 24.482702016830444
+
+normal rule
+N-formula:	 Not(v0%7 == 0)
+time cost:	 1.0900225639343262
+strategies:	 [(v0%7 == 1, 'take', 1), (v0%7 == 2, 'take', 2), (v0%7 == 3, 'take', 3), (v0%7 == 4, 'take', 4), (v0%7 == 5, 'take', 5), (v0%7 == 6, 'take', 6)]
+time cost:	 3.4491019248962402
+
+normal rule
+N-formula:	 And(Not(v0 == 7), Not(v0 == 14), Not(v0%7 == 0))
+time cost:	 5.305659770965576
+strategies:	 [(And(Not(7 <= v0), v0%7 == 1), 'take', v0), (And(Not(7 <= v0), v0%7 == 2), 'take', 2), (And(Not(7 <= v0), v0%7 == 3), 'take', 3), (And(Not(7 <= v0), v0%7 == 4), 'take', 4), (And(Not(7 <= v0), v0%7 == 5), 'take', 5), (And(Not(7 <= v0), v0%7 == 6), 'take', 6), (And(Not(v0 <= 7), Not(14 <= v0), v0%7 == 1), 'take', 1), (And(Not(v0 <= 7), Not(14 <= v0), v0%7 == 2), 'take', 2), (And(Not(v0 <= 7), Not(14 <= v0), v0%7 == 3), 'take', 3), (And(Not(v0 <= 7), Not(14 <= v0), v0%7 == 4), 'take', 4), (And(Not(v0 <= 7), Not(14 <= v0), v0%7 == 5), 'take', 5), (And(Not(v0 <= 7), Not(14 <= v0), v0%7 == 6), 'take', 6), (And(Not(v0 <= 14), v0%7 == 1), 'take', 1), (And(Not(v0 <= 14), v0%7 == 2), 'take', 2), (And(Not(v0 <= 14), v0%7 == 3), 'take', 3), (And(Not(v0 <= 14), v0%7 == 4), 'take', 4), (And(Not(v0 <= 14), v0%7 == 5), 'take', 5), (And(Not(v0 <= 14), v0%7 == 6), 'take', 6)]
+time cost:	 9.678472995758057
+
+normal rule
+N-formula:	 Not(v0%7 == 0)
+time cost:	 3.203296661376953
+strategies:	 [(v0%7 == 1, 'take', 1), (v0%7 == 2, 'take', 2), (v0%7 == 3, 'take', 3), (v0%7 == 4, 'take', 4), (v0%7 == 5, 'take', 5), (v0%7 == 6, 'take', 6)]
+time cost:	 5.542661905288696
+
+normal rule
+N-formula:	 False
+time cost:	 0.7512218952178955
+strategies:	 []
+time cost:	 0.7622663974761963
+
+normal rule
+N-formula:	 False
+time cost:	 0.71425461769104
+strategies:	 []
+time cost:	 0.7232551574707031
+
+normal rule
+N-formula:	 And(Not(v0 <= 0), Not(v0%7 == 1))
+time cost:	 3.4926540851593018
+strategies:	 [(And(Not(v0 <= 0), v0%7 == 2), 'take', 2), (And(Not(v0 <= 0), v0%7 == 3), 'take', 3), (And(Not(v0 <= 0), v0%7 == 4), 'take', 4), (And(Not(v0 <= 0), v0%7 == 5), 'take', 5), (And(Not(v0 <= 0), v0%7 == 6), 'take', 6)]
+time cost:	 6.598513603210449
+
+normal rule
+N-formula:	 And(Not(v0 <= 0), Not(v0%7 == 0), Not(v0%7 == 4))
+time cost:	 2.0766348838806152
+strategies:	 [(And(Not(v0 <= 0), v0%7 == 1), 'take', 1), (And(Not(v0 <= 0), v0%7 == 2), 'take', 2), (And(Not(v0 <= 0), v0%7 == 3), 'take', 3), (And(Not(v0 <= 0), v0%7 == 5), 'take', 5), (And(Not(v0 <= 0), v0%7 == 6), 'take', 6)]
+time cost:	 4.536633729934692
+
+normal rule
+N-formula:	 Not(v0 == 0)
+time cost:	 2.589953660964966
+strategies:	 [(Not(v0 <= 0), 'take', v0)]
+time cost:	 2.954941749572754
+
+normal rule
+N-formula:	 v0 >= 1
+time cost:	 0.7858986854553223
+strategies:	 [(Not(v0 <= 1), 'take', v0), (v0 == 1, 'take', v0)]
+time cost:	 1.3650145530700684

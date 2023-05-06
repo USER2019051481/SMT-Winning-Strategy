@@ -1,0 +1,18 @@
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 1)
+time cost:	 4.884337663650513
+strategies:	 [(Not(1 <= v0 + -1*v1), 'eat2', v0), (Not(v0 + -1*v1 <= 1), 'eat1', 2 + v1)]
+time cost:	 6.260051727294922
+
+normal rule
+N-formula:	 And(Not(v0 + -1*v1 == 1), Not(-1*v0 + v1 <= -1))
+time cost:	 4.396897792816162
+strategies:	 [(Not(1 <= v0 + -1*v1), 'eat2', v0)]
+time cost:	 4.914225339889526
+
+misere rule
+N-formula:	 And(Not(v0 + v1 == 2), Not(11 <= 4*v0 + 2*v1))
+time cost:	 3.6580798625946045
+strategies:	 [(And(Not(2 <= v0 + v1), Not(11 <= 4*v0 + 2*v1)), 'eat1', 0), (And(Not(v0 + v1 <= 2), Not(11 <= 4*v0 + 2*v1)), 'eat2', 3 + -1*v0)]
+time cost:	 4.001720428466797

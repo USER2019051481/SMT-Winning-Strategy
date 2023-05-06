@@ -1,0 +1,66 @@
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 5.093611001968384
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 6.5421977043151855
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 5.058560848236084
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 6.672433853149414
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 11.938668727874756
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 15.182321071624756
+
+normal rule
+N-formula:	 And(Not(v0 == 0), Not(v0%3 == 0))
+time cost:	 0.6362442970275879
+strategies:	 [(And(Not(v0 <= 0), v0%3 == 1), 'take', 1), (And(Not(v0 <= 0), v0%3 == 2), 'take', 2)]
+time cost:	 1.204892635345459
+
+misere rule
+N-formula:	 And(Not(v0 == -1), Not(v0%3 == 1))
+time cost:	 0.6309254169464111
+strategies:	 [(And(Not(v0 <= -1), v0%3 == 0), 'take', 2), (And(Not(v0 <= -1), v0%3 == 2), 'take', 1)]
+time cost:	 1.1814534664154053
+
+normal rule
+N-formula:	 And(Not(v0 == 0), Not(v0%3 == 0))
+time cost:	 0.6911211013793945
+strategies:	 [(And(Not(v0 <= 0), v0%3 == 1), 'take', 1), (And(Not(v0 <= 0), v0%3 == 2), 'take', 2)]
+time cost:	 1.2298259735107422
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 2.3389031887054443
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 2.7539429664611816
+
+misere rule
+N-formula:	 And(Not(v0 == 4), Not(v0%3 == 1))
+time cost:	 7.688755750656128
+strategies:	 [(And(Not(4 <= v0), v0%3 == 0), 'take', 2), (And(Not(4 <= v0), v0%3 == 2), 'take', 1), (And(Not(v0 <= 4), v0%3 == 0), 'take', 2), (And(Not(v0 <= 4), v0%3 == 2), 'take', 1)]
+time cost:	 8.696711540222168
+
+misere rule
+N-formula:	 Not(v0%3 == 1)
+time cost:	 0.49898409843444824
+strategies:	 [(v0%3 == 0, 'take', 2), (v0%3 == 2, 'take', 1)]
+time cost:	 1.2020940780639648
+
+misere rule
+N-formula:	 Not(v0%3 == 1)
+time cost:	 0.8582067489624023
+strategies:	 [(v0%3 == 0, 'take', 2), (v0%3 == 2, 'take', 1)]
+time cost:	 1.7171144485473633
+
+misere rule
+N-formula:	 Not(v0%3 == 1)
+time cost:	 0.3990356922149658
+strategies:	 [(v0%3 == 0, 'take', 2), (v0%3 == 2, 'take', 1)]
+time cost:	 0.9721150398254395

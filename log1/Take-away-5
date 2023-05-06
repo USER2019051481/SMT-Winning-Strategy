@@ -1,0 +1,36 @@
+
+normal rule
+N-formula:	 Not(v0%6 == 0)
+time cost:	 2.6163980960845947
+strategies:	 [(v0%6 == 1, 'take', 1), (v0%6 == 2, 'take', 2), (v0%6 == 3, 'take', 3), (v0%6 == 4, 'take', 4), (v0%6 == 5, 'take', 5)]
+time cost:	 5.670294523239136
+
+normal rule
+N-formula:	 And(Not(v0 == 0), Not(v0%6 == 0))
+time cost:	 6.771892547607422
+strategies:	 [(And(Not(v0 <= 0), v0%6 == 1), 'take', 1), (And(Not(v0 <= 0), v0%6 == 2), 'take', 2), (And(Not(v0 <= 0), v0%6 == 3), 'take', 3), (And(Not(v0 <= 0), v0%6 == 4), 'take', 4), (And(Not(v0 <= 0), v0%6 == 5), 'take', 5)]
+time cost:	 9.072354555130005
+
+misere rule
+N-formula:	 And(Not(v0 == 1), Not(v0%6 == 1))
+time cost:	 3.5381171703338623
+strategies:	 [(And(Not(1 <= v0), v0%6 == 0), 'take', 0), (And(Not(v0 <= 1), v0%6 == 0), 'take', 5), (And(Not(v0 <= 1), v0%6 == 2), 'take', 1), (And(Not(v0 <= 1), v0%6 == 3), 'take', 2), (And(Not(v0 <= 1), v0%6 == 4), 'take', 3), (And(Not(v0 <= 1), v0%6 == 5), 'take', 4)]
+time cost:	 5.068328619003296
+
+misere rule
+N-formula:	 And(Not(v0 == 1), Not(v0%6 == 1))
+time cost:	 3.545682668685913
+strategies:	 [(And(Not(1 <= v0), v0%6 == 0), 'take', 0), (And(Not(v0 <= 1), v0%6 == 0), 'take', 5), (And(Not(v0 <= 1), v0%6 == 2), 'take', 1), (And(Not(v0 <= 1), v0%6 == 3), 'take', 2), (And(Not(v0 <= 1), v0%6 == 4), 'take', 3), (And(Not(v0 <= 1), v0%6 == 5), 'take', 4)]
+time cost:	 5.063195705413818
+
+normal rule
+N-formula:	 Not(v0%6 == 0)
+time cost:	 1.554401159286499
+strategies:	 [(v0%6 == 1, 'take', 1), (v0%6 == 2, 'take', 2), (v0%6 == 3, 'take', 3), (v0%6 == 4, 'take', 4), (v0%6 == 5, 'take', 5)]
+time cost:	 3.2803874015808105
+
+misere rule
+N-formula:	 Not(v0%6 == 1)
+time cost:	 2.1438207626342773
+strategies:	 [(v0%6 == 0, 'take', 5), (v0%6 == 2, 'take', 1), (v0%6 == 3, 'take', 2), (v0%6 == 4, 'take', 3), (v0%6 == 5, 'take', 4)]
+time cost:	 3.845470428466797

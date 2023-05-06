@@ -1,0 +1,24 @@
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 4.101659059524536
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 5.172358274459839
+
+normal rule
+N-formula:	 And(Not(v0 == 3), Not(v0%3 == 0))
+time cost:	 11.376697540283203
+strategies:	 [(And(Not(3 <= v0), v0%3 == 1), 'take', v0), (And(Not(3 <= v0), v0%3 == 2), 'take', 2), (And(Not(v0 <= 3), v0%3 == 1), 'take', 1), (And(Not(v0 <= 3), v0%3 == 2), 'take', 2)]
+time cost:	 18.40587043762207
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 3.122363805770874
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 3.5272419452667236
+
+misere rule
+N-formula:	 Not(v0%3 == 1)
+time cost:	 0.43097496032714844
+strategies:	 [(v0%3 == 0, 'take', 2), (v0%3 == 2, 'take', 1)]
+time cost:	 1.0433108806610107

@@ -1,0 +1,18 @@
+
+normal rule
+N-formula:	 False
+time cost:	 1.9627954959869385
+strategies:	 []
+time cost:	 1.9753706455230713
+
+normal rule
+N-formula:	 False
+time cost:	 2.5360920429229736
+strategies:	 []
+time cost:	 2.546095609664917
+
+normal rule
+N-formula:	 Not(v0%3 == 0)
+time cost:	 23.82520604133606
+strategies:	 [(v0%3 == 1, 'take', 1), (v0%3 == 2, 'take', 2)]
+time cost:	 24.491547107696533

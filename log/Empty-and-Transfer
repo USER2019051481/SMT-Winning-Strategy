@@ -1,0 +1,36 @@
+
+normal rule
+N-formula:	 Not(v0 + v1 + -5*v2 <= -3)
+time cost:	 1.83431077003479
+strategies:	 []
+time cost:	 2.113316297531128
+
+normal rule
+N-formula:	 Not(v0 + v1 + -5*v2 <= -3)
+time cost:	 2.0925235748291016
+strategies:	 []
+time cost:	 2.366490364074707
+
+normal rule
+N-formula:	 Not(v0 + v1 + -5*v2 <= -3)
+time cost:	 1.7825496196746826
+strategies:	 []
+time cost:	 2.0641887187957764
+
+normal rule
+N-formula:	 Not(v0 + v1 + -5*v2 <= -3)
+time cost:	 1.8020012378692627
+strategies:	 []
+time cost:	 2.055997610092163
+
+normal rule
+N-formula:	 Not(v0 + v1 + -5*v2 <= -3)
+time cost:	 1.7365224361419678
+strategies:	 []
+time cost:	 1.9955666065216064
+
+normal rule
+N-formula:	 Not(v0 + v1 + -5*v2 <= -3)
+time cost:	 1.674346923828125
+strategies:	 []
+time cost:	 1.9414458274841309

@@ -1,0 +1,131 @@
+
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.440568208694458
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.0110244750976562
+
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.5462167263031006
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.089796543121338
+
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.5720691680908203
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.142967939376831
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 52.738308906555176
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 53.551385164260864
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 26.083460330963135
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 26.606459617614746
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 0)
+time cost:	 1.2578880786895752
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 0)
+time cost:	 1.4744515419006348
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.7097532749176025
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.7027473449707031
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.6468093395233154
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.4248507022857666
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 0)
+time cost:	 1.2745552062988281
+strategies:	 [(Not(0 <= v0 + -1*v1), 'eat2', 1 + v0), (Not(v0 + -1*v1 <= 0), 'eat1', 1 + v1)]
+time cost:	 1.8988854885101318
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 1.0512475967407227
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 2.319309949874878
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 1.0730671882629395
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 2.5611214637756348
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 19.602746725082397
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 20.26370620727539
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 28.363612174987793
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 28.84758234024048
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 0)
+time cost:	 48.16722321510315
+strategies:	 [(Not(0 <= v0 + -1*v1), 'eat2', 1 + v0), (Not(v0 + -1*v1 <= 0), 'eat1', 1 + v1)]
+time cost:	 48.67910838127136
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.6029798984527588
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.3138372898101807
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.6292164325714111
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.3093225955963135
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.7986457347869873
+strategies:	 [(Not(0 <= -1*v0 + v1), 'eat1', 1 + v1), (Not(-1*v0 + v1 <= 0), 'eat2', 1 + v0)]
+time cost:	 1.3714783191680908
+
+normal rule
+N-formula:	 Not(v0 + -1*v1 == 0)
+time cost:	 0.9185702800750732
+strategies:	 []
+time cost:	 1.236539602279663
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.279893159866333
+strategies:	 []
+time cost:	 0.6109297275543213
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.2960083484649658
+strategies:	 []
+time cost:	 0.6139659881591797
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.27500486373901367
+strategies:	 []
+time cost:	 0.5840046405792236
+
+normal rule
+N-formula:	 Not(-1*v0 + v1 == 0)
+time cost:	 0.44968581199645996
+strategies:	 []
+time cost:	 1.0801587104797363

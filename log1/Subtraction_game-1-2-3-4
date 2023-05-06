@@ -1,0 +1,24 @@
+
+normal rule
+N-formula:	 Not(v0%5 == 0)
+time cost:	 1.654891014099121
+strategies:	 [(v0%5 == 1, 'take', 1), (v0%5 == 2, 'take', 2), (v0%5 == 3, 'take', 3), (v0%5 == 4, 'take', 4)]
+time cost:	 3.806725263595581
+
+normal rule
+N-formula:	 Not(v0%5 == 0)
+time cost:	 1.6444919109344482
+strategies:	 [(v0%5 == 1, 'take', 1), (v0%5 == 2, 'take', 2), (v0%5 == 3, 'take', 3), (v0%5 == 4, 'take', 4)]
+time cost:	 3.830798864364624
+
+normal rule
+N-formula:	 Not(v0%5 == 0)
+time cost:	 0.8424313068389893
+strategies:	 [(v0%5 == 1, 'take', 1), (v0%5 == 2, 'take', 2), (v0%5 == 3, 'take', 3), (v0%5 == 4, 'take', 4)]
+time cost:	 1.8575243949890137
+
+misere rule
+N-formula:	 Not(v0%5 == 1)
+time cost:	 0.9602603912353516
+strategies:	 [(v0%5 == 0, 'take', 4), (v0%5 == 2, 'take', 1), (v0%5 == 3, 'take', 2), (v0%5 == 4, 'take', 3)]
+time cost:	 2.09989070892334

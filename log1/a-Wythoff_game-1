@@ -1,0 +1,18 @@
+
+normal rule
+N-formula:	 Not(-3 <= -2*v0 + v1)
+time cost:	 2.1122844219207764
+strategies:	 [(Not(-3 <= -2*v0 + v1), 'take1', v0)]
+time cost:	 2.270242691040039
+
+normal rule
+N-formula:	 Not(-3 <= -2*v0 + v1)
+time cost:	 1.8533613681793213
+strategies:	 [(Not(-3 <= -2*v0 + v1), 'take1', v0)]
+time cost:	 1.9895994663238525
+
+normal rule
+N-formula:	 Not(-1 <= -1*v0 + v1)
+time cost:	 1.9629173278808594
+strategies:	 [(Not(-1 <= -1*v0 + v1), 'take1', v0)]
+time cost:	 2.247504234313965

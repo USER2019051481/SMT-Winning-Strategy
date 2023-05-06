@@ -1,0 +1,14 @@
+
+normal rule
+N-formula:	 Not(v0 + v1 + -1*v2 == 0)
+time cost:	 3.782323122024536
+strategies:	 [(Not(0 <= v0 + v1 + -1*v2), 'take3', -1*v0 + -1*v1 + v2), (Not(v0 + v1 + -1*v2 <= 0), 'take1', v0 + v1 + -1*v2)]
+time cost:	 7.962999105453491
+
+normal rule
+N-formula:	 And(Not(-1*v0 + -1*v1 + v2 == 0),
+    Not(3*v0 + v1 + -2*v2 <= 0))
+time cost:	 4.403113126754761
+strategies:	 [(And(Not(0 <= -1*v0 + -1*v1 + v2),
+    Not(3*v0 + v1 + -2*v2 <= 0)), 'take1', v1)]
+time cost:	 5.405767440795898

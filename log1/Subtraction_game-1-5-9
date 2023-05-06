@@ -1,0 +1,6 @@
+
+normal rule
+N-formula:	 Not(v0%2 == 0)
+time cost:	 0.1685037612915039
+strategies:	 [(v0%2 == 1, 'take', 1)]
+time cost:	 0.5895037651062012

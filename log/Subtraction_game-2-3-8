@@ -1,0 +1,6 @@
+
+normal rule
+N-formula:	 And(v0 >= 1, Not((2*v0)%3 == 1))
+time cost:	 1.254626989364624
+strategies:	 []
+time cost:	 1.7000741958618164

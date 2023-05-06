@@ -1,0 +1,12 @@
+
+normal rule
+N-formula:	 False
+time cost:	 1.1043260097503662
+strategies:	 []
+time cost:	 1.1063690185546875
+
+normal rule
+N-formula:	 Or(Not(v0%10 == 0), And(v0 >= 9, Not(v0%10 == 0)))
+time cost:	 13.441877365112305
+strategies:	 [(And(Not(v0 <= 9), v0%10 == 1), 'take', 1), (And(Not(v0 <= 9), v0%10 == 2), 'take', 2), (And(Not(v0 <= 9), v0%10 == 3), 'take', 3), (And(Not(v0 <= 9), v0%10 == 4), 'take', 4), (And(Not(v0 <= 9), v0%10 == 5), 'take', 5), (And(Not(v0 <= 9), v0%10 == 6), 'take', 6), (And(Not(v0 <= 9), v0%10 == 7), 'take', 7), (And(Not(v0 <= 9), v0%10 == 8), 'take', 8), (And(Not(v0 <= 9), v0%10 == 9), 'take', 9), (v0 == 9, 'take', 9), (v0%10 == 1, 'take', 1), (v0%10 == 2, 'take', 2), (v0%10 == 3, 'take', 3), (v0%10 == 4, 'take', 4), (v0%10 == 5, 'take', 5), (v0%10 == 6, 'take', 6), (v0%10 == 7, 'take', 7), (v0%10 == 8, 'take', 8), (v0%10 == 9, 'take', 9)]
+time cost:	 17.4958758354187

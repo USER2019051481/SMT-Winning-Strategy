@@ -1,0 +1,18 @@
+
+normal rule
+N-formula:	 Not((v0 + v1)%2 == 0)
+time cost:	 0.14711451530456543
+strategies:	 [(And(v0%2 == 1, v1%2 == 0), 'take1', v0)]
+time cost:	 0.2961142063140869
+
+normal rule
+N-formula:	 Not((v0 + v1)%2 == 0)
+time cost:	 0.28963708877563477
+strategies:	 [(And(v0%2 == 1, v1%2 == 0), 'take1', v0)]
+time cost:	 0.5677411556243896
+
+misere rule
+N-formula:	 Not((v0 + v1)%2 == 1)
+time cost:	 0.16199707984924316
+strategies:	 [(And(v0%2 == 0, v1%2 == 0), 'take1', 1)]
+time cost:	 0.3190648555755615

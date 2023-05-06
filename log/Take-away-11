@@ -1,0 +1,18 @@
+
+normal rule
+N-formula:	 False
+time cost:	 2.021040916442871
+strategies:	 []
+time cost:	 2.021040916442871
+
+normal rule
+N-formula:	 False
+time cost:	 1.3220219612121582
+strategies:	 []
+time cost:	 1.3220219612121582
+
+normal rule
+N-formula:	 Not(v0%12 == 0)
+time cost:	 3.313307523727417
+strategies:	 [(v0%12 == 1, 'take', 1), (v0%12 == 2, 'take', 2), (v0%12 == 3, 'take', 3), (v0%12 == 4, 'take', 4), (v0%12 == 5, 'take', 5), (v0%12 == 6, 'take', 6), (v0%12 == 7, 'take', 7), (v0%12 == 8, 'take', 8), (v0%12 == 9, 'take', 9), (v0%12 == 10, 'take', 10), (v0%12 == 11, 'take', 11)]
+time cost:	 5.89215874671936

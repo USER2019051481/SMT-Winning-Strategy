@@ -1,0 +1,6 @@
+
+normal rule
+N-formula:	 Not(v0%11 == 0)
+time cost:	 15.491103410720825
+strategies:	 [(v0%11 == 1, 'take', 1), (v0%11 == 2, 'take', 2), (v0%11 == 3, 'take', 3), (v0%11 == 4, 'take', 4), (v0%11 == 5, 'take', 5), (v0%11 == 6, 'take', 6), (v0%11 == 7, 'take', 7), (v0%11 == 8, 'take', 8), (v0%11 == 9, 'take', 9), (v0%11 == 10, 'take', 10)]
+time cost:	 18.817938804626465

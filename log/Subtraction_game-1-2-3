@@ -1,0 +1,14 @@
+
+normal rule
+N-formula:	 Not(v0%4 == 0)
+time cost:	 3.4502058029174805
+strategies:	 [(v0%4 == 1, 'take', 1), (v0%4 == 2, 'take', 2), (v0%4 == 3, 'take', 3)]
+time cost:	 4.078184127807617
+
+normal rule
+N-formula:	 Or(Not(v0%4 == 0),
+   And(v0 <= 4, Not(v0%4 == 0)),
+   And(v0 >= 3, Not(v0%4 == 0)))
+time cost:	 36.060906648635864
+strategies:	 [(v0%4 == 1, 'take', 1), (v0%4 == 2, 'take', 2), (v0%4 == 3, 'take', 3), (And(Not(4 <= v0), v0%4 == 1), 'take', v0), (And(Not(4 <= v0), v0%4 == 2), 'take', 2), (And(Not(4 <= v0), v0%4 == 3), 'take', 3), (And(Not(v0 <= 2), v0%4 == 1), 'take', 1), (And(Not(v0 <= 2), v0%4 == 2), 'take', 2), (And(Not(v0 <= 2), v0%4 == 3), 'take', 3)]
+time cost:	 37.69498562812805
